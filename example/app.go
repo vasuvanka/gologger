@@ -1,12 +1,3 @@
-# gologger
-json formatted logger for gofiber framework
-
-# Import gouniq package from
-
-
-
-# Usage
-```go
 package main
 
 import (
@@ -18,16 +9,10 @@ func main() {
 	app := fiber.New()
 
 	app.Use(gologger.Log)
-	
+
 	app.Get("/", func(c *fiber.Ctx) {
 		c.Send("Hello, World 👋!")
 	})
 
 	app.Listen(3000)
 }
-```
-
-# License
-MIT
-
-# Free Software
