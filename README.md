@@ -1,10 +1,6 @@
 # gologger
 json formatted logger for gofiber framework
 
-# Import gouniq package from
-
-
-
 # Usage
 ```go
 package main
